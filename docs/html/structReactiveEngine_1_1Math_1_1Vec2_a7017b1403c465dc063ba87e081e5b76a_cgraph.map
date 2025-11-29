@@ -1,0 +1,7 @@
+<map id="ReactiveEngine::Math::Vec2::get_angle_between_vectors" name="ReactiveEngine::Math::Vec2::get_angle_between_vectors">
+<area shape="rect" id="Node000001" title="Returns angle between two passed vectors." alt="" coords="5,31,184,89"/>
+<area shape="rect" id="Node000002" href="$structReactiveEngine_1_1Math_1_1Vec2.html#a6616796ba9ac15056af3c1295045b4cd" title="Length of vector." alt="" coords="232,5,382,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,43,216,38,217,43,185,49"/>
+<area shape="rect" id="Node000003" href="$structReactiveEngine_1_1Math_1_1Vec2.html#a4b2d5ff3c287e19ca1bb35927a5873e5" title=" " alt="" coords="232,72,382,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,71,217,77,216,82,184,77"/>
+</map>
