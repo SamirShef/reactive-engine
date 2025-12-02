@@ -75,22 +75,26 @@ $(function(){initNavTree('main_8cpp.html','',''); });
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="constants_8hpp_source.html">../include/utils/constants.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vector_8hpp_source.html">../include/utils/vector.hpp</a>&quot;</code><br />
-<code>#include &lt;cstdio&gt;</code><br />
+<code>#include &quot;<a class="el" href="matrix_8hpp_source.html">../include/utils/matrix.hpp</a>&quot;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;cmath&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for main.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="main_8cpp__incl.png" border="0" usemap="#a_2mnt_2disk__ext4__0_2reactive-engine_2src_2main_8cpp" loading="lazy" alt=""/></div>
 <map name="a_2mnt_2disk__ext4__0_2reactive-engine_2src_2main_8cpp" id="a_2mnt_2disk__ext4__0_2reactive-engine_2src_2main_8cpp">
-<area shape="rect" title=" " alt="" coords="283,5,454,48"/>
+<area shape="rect" title=" " alt="" coords="267,5,438,48"/>
 <area shape="rect" href="constants_8hpp.html" title=" " alt="" coords="5,96,194,123"/>
-<area shape="poly" title=" " alt="" coords="300,51,158,94,156,88,299,46"/>
-<area shape="rect" href="vector_8hpp.html" title=" " alt="" coords="217,96,384,123"/>
-<area shape="poly" title=" " alt="" coords="353,50,323,86,319,82,349,47"/>
-<area shape="rect" title=" " alt="" coords="409,96,465,123"/>
-<area shape="poly" title=" " alt="" coords="388,47,418,82,414,86,384,50"/>
-<area shape="rect" title=" " alt="" coords="490,96,547,123"/>
-<area shape="poly" title=" " alt="" coords="409,46,483,86,480,91,406,51"/>
+<area shape="poly" title=" " alt="" coords="288,51,155,93,153,88,287,46"/>
+<area shape="rect" href="vector_8hpp.html" title=" " alt="" coords="208,171,375,197"/>
+<area shape="poly" title=" " alt="" coords="308,51,281,71,259,97,255,112,258,127,273,157,268,160,253,129,250,112,254,95,277,67,305,46"/>
+<area shape="rect" href="matrix_8hpp.html" title=" " alt="" coords="269,96,436,123"/>
+<area shape="poly" title=" " alt="" coords="356,49,356,80,350,80,350,49"/>
+<area shape="rect" title=" " alt="" coords="460,96,520,123"/>
+<area shape="poly" title=" " alt="" coords="390,46,457,85,454,90,387,51"/>
+<area shape="rect" title=" " alt="" coords="544,96,602,123"/>
+<area shape="poly" title=" " alt="" coords="410,46,531,90,529,95,409,51"/>
+<area shape="poly" title=" " alt="" coords="344,125,314,161,310,157,340,121"/>
 </map>
 </div>
 </div>
@@ -120,22 +124,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00008">8</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00009">9</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.png" border="0" usemap="#amain_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph" loading="lazy" alt=""/></div>
 <map name="amain_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph" id="amain_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph">
-<area shape="rect" title=" " alt="" coords="5,59,55,85"/>
-<area shape="rect" href="structReactiveEngine_1_1Math_1_1Vec2.html#a7017b1403c465dc063ba87e081e5b76a" title="Returns angle between two passed vectors." alt="" coords="103,5,281,64"/>
-<area shape="poly" title=" " alt="" coords="55,64,87,56,88,61,56,69"/>
-<area shape="rect" href="structReactiveEngine_1_1Math_1_1Vec2.html#a410d2f78d7638506b5fb3210f77cfe95" title="Fast definition the vector with direction at right." alt="" coords="117,88,267,131"/>
-<area shape="poly" title=" " alt="" coords="56,75,102,86,101,91,55,80"/>
-<area shape="rect" href="structReactiveEngine_1_1Math_1_1Vec2.html#a6616796ba9ac15056af3c1295045b4cd" title="Length of vector." alt="" coords="329,13,479,56"/>
-<area shape="poly" title=" " alt="" coords="281,32,313,32,313,37,281,37"/>
-<area shape="rect" href="structReactiveEngine_1_1Math_1_1Vec2.html#a4b2d5ff3c287e19ca1bb35927a5873e5" title=" " alt="" coords="329,84,479,127"/>
-<area shape="poly" title=" " alt="" coords="282,62,324,76,322,81,281,67"/>
-<area shape="poly" title=" " alt="" coords="267,105,313,104,313,110,267,111"/>
+<area shape="rect" title=" " alt="" coords="5,184,55,211"/>
+<area shape="rect" href="structReactiveEngine_1_1Math_1_1Mat2x2.html#a94cf40ee2e528be65e6360c5ad40798f" title="Calculating an determinant." alt="" coords="329,5,479,48"/>
+<area shape="poly" title=" " alt="" coords="31,183,38,154,50,117,71,80,101,50,152,25,207,12,262,8,314,10,314,15,263,13,208,17,153,30,104,54,75,83,55,120,43,156,36,184"/>
+<area shape="rect" href="structReactiveEngine_1_1Math_1_1Vec2.html#a7017b1403c465dc063ba87e081e5b76a" title="Returns angle between two passed vectors." alt="" coords="103,131,281,189"/>
+<area shape="poly" title=" " alt="" coords="55,189,87,182,88,187,56,194"/>
+<area shape="rect" href="structReactiveEngine_1_1Math_1_1Mat2x2.html#a772c901e3633aaf3fbbfd27e6a13b1c7" title="Invert matrix operation." alt="" coords="117,64,267,107"/>
+<area shape="poly" title=" " alt="" coords="38,182,64,150,101,117,108,112,111,117,104,121,68,153,43,186"/>
+<area shape="rect" href="structReactiveEngine_1_1Math_1_1Vec2.html#a410d2f78d7638506b5fb3210f77cfe95" title="Fast definition the vector with direction at right." alt="" coords="117,213,267,256"/>
+<area shape="poly" title=" " alt="" coords="56,200,102,211,101,216,55,206"/>
+<area shape="rect" href="structReactiveEngine_1_1Math_1_1Mat2x2.html#a342a0ddb74e93257ed886197720717b8" title="Converting matrix to string." alt="" coords="117,280,267,323"/>
+<area shape="poly" title=" " alt="" coords="44,209,70,238,104,266,112,270,109,275,101,270,66,241,40,213"/>
+<area shape="rect" href="structReactiveEngine_1_1Math_1_1Vec2.html#a1e5b43792da94efdd84397ade05c204a" title="Converting vector to string." alt="" coords="117,347,267,389"/>
+<area shape="poly" title=" " alt="" coords="37,210,59,269,79,303,105,333,108,336,105,340,101,337,74,306,55,271,32,212"/>
+<area shape="rect" href="structReactiveEngine_1_1Math_1_1Vec2.html#a6616796ba9ac15056af3c1295045b4cd" title="Length of vector." alt="" coords="329,139,479,181"/>
+<area shape="poly" title=" " alt="" coords="281,157,313,157,313,163,281,163"/>
+<area shape="rect" href="structReactiveEngine_1_1Math_1_1Vec2.html#a4b2d5ff3c287e19ca1bb35927a5873e5" title=" " alt="" coords="329,209,479,252"/>
+<area shape="poly" title=" " alt="" coords="282,187,324,201,322,206,281,192"/>
+<area shape="poly" title=" " alt="" coords="266,62,313,49,315,54,268,67"/>
+<area shape="rect" href="structReactiveEngine_1_1Math_1_1Mat2x2.html#a54f0208b18bed0419d82174c21db11d9" title=" " alt="" coords="329,72,479,115"/>
+<area shape="poly" title=" " alt="" coords="267,85,313,87,313,93,267,91"/>
+<area shape="poly" title=" " alt="" coords="267,231,313,230,313,235,267,236"/>
 </map>
 </div>
 

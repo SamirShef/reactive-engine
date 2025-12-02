@@ -1,4 +1,6 @@
 #include "../../include/utils/vector.hpp"
+#include <stdlib.h>
+#include <stdio.h>
 #include <cmath>
 
 namespace ReactiveEngine {
@@ -74,6 +76,12 @@ namespace ReactiveEngine {
     
         double Vec2::get_angle_between_vectors(Vec2 a, Vec2 b) {
             return std::acos((a * b).length() / (a.length() * b.length()));
+        }
+
+        const char *Vec2::to_str() const {
+            char *str = (char*)malloc(sizeof(char) * 39);
+            sprintf(str, "Vec2(%lf, %lf)", x, y);
+            return str;
         }
     }
 }
