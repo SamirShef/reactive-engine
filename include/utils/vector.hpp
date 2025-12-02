@@ -85,6 +85,12 @@ namespace ReactiveEngine {
             * @return Normilized vector
             */
             Vec2 norm() const;
+
+            /**
+             * @brief Converting vector to string
+             * @return Converted vector to string
+             */
+            const char *to_str() const;
     
             /**
             * @brief Returns angle between two passed vectors

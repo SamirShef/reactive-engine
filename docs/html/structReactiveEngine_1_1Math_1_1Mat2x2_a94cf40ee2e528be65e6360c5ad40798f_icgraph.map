@@ -1,0 +1,10 @@
+<map id="ReactiveEngine::Math::Mat2x2::det" name="ReactiveEngine::Math::Mat2x2::det">
+<area shape="rect" id="Node000001" title="Calculating an determinant." alt="" coords="402,27,552,69"/>
+<area shape="rect" id="Node000002" href="$structReactiveEngine_1_1Math_1_1Mat2x2.html#a772c901e3633aaf3fbbfd27e6a13b1c7" title="Invert matrix operation." alt="" coords="204,56,354,99"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="387,64,355,69,354,64,387,59"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="56,5,105,32"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="387,44,105,23,106,18,387,39"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="189,54,105,28,106,23,191,49"/>
+<area shape="rect" id="Node000004" href="$structReactiveEngine_1_1Math_1_1Mat2x2.html#a63cfbfeb02795d890bc498cbb8ed192c" title=" " alt="" coords="5,56,156,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="188,80,156,80,156,75,188,75"/>
+</map>
